@@ -7,7 +7,19 @@ O algoritmo Bubble Sort funciona comparando cada elemento do array com o próxim
 
 Neste código, o loop do continua até que a variável swapped permaneça false, o que significa que nenhum elemento foi trocado na última passagem pelo array, indicando que o array está ordenado.
 
+## Para utlizá-lo:
+1. Clone este repositório para sua máquina local usando o comando git clone.
+2. Navegue até a pasta do projeto no seu terminal.
+3. Execute o programa com o comando ruby bubble_sort.rb.
+4. Quando solicitado, insira o array que você deseja ordenar.
 
+## Como usar
+Para usar este código, você precisa passar um array para a função bubble_sort. A função irá retornar o array ordenado.
+```
+array_desordenado = [4, 3, 2, 1]
+array_ordenado = bubble_sort(array_desordenado)
+puts array_ordenado # Saída: [1, 2, 3, 4]
+```
 ## Código
 
 ```
@@ -26,13 +38,7 @@ def bubble_sort(array)
 end
 ```
 
-## Como usar
-Para usar este código, você precisa passar um array para a função bubble_sort. A função irá retornar o array ordenado.
-```
-array_desordenado = [4, 3, 2, 1]
-array_ordenado = bubble_sort(array_desordenado)
-puts array_ordenado # Saída: [1, 2, 3, 4]
-```
+
 
 
 ## License
